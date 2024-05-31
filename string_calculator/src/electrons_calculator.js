@@ -10,7 +10,6 @@ ElectronsCalculator.prototype.calculate = function(array) {
 	}
 	
 	return 0;
-
 };
 
 
