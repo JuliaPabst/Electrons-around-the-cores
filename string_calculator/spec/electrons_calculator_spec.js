@@ -21,7 +21,7 @@ describe('Electrons', function() {
 		electrons = new ElectronsCalculator(); 
 	});
 
-	it('should return 0 for an empty array', function() {
+	it('should return 0  for an empty array', function() {
 		expect(electrons.calculate('')).toEqual(0);
 	});
 });
