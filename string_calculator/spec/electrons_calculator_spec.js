@@ -8,9 +8,9 @@ TODO-LIST:
 - get [1,3] as input - expect 2 as output
 - get [3,5] as input - expect 6 as output
 
-
+1 - write failing test:
 2 - write prod code:
--3 refactor:
+3 - refactor:
   
  Andrei Brate: driver, Julia Pabst: observer
  Andrei Brate: observer, Julia Pabst: driver
