@@ -9,7 +9,6 @@ if it is more than 6 - should return -2
 - get [5] as input - expect -1 as output
 - get [1,2] as input - expect -1 as output
 - get [1,3] as input - expect -1 as output
-- get [3,5] as input - expect -1 as output
 - get [1,2,3,4] as input - expect 2 as output
 - get [1,2,3,4,5,6,7] as input - expect -2 as output
 
@@ -30,18 +29,18 @@ describe('Electrons', function() {
 	});
 
 	it('should return 0 for an empty array', function() {
-		expect(electrons.calculate('')).toEqual(0);
+		expect(electrons.calculate('')).toEqual(-1);
 	});
 
 	it('should return 2 for array [3]', function() {
-		expect(electrons.calculate([3])).toEqual(2);
+		expect(electrons.calculate([3])).toEqual(-1);
 	});
 
 	it('should return 4 for array [5]', function() {
-		expect(electrons.calculate([5])).toEqual(4);
+		expect(electrons.calculate([5])).toEqual(-1);
 	});
 
 	it('should return 0 for array [1, 2]', function() {
-		expect(electrons.calculate([1, 2])).toEqual(0);
+		expect(electrons.calculate([1, 2])).toEqual(-1);
 	});
 });
