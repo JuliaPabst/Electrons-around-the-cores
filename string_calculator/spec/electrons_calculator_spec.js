@@ -35,4 +35,8 @@ describe('Electrons', function() {
 	it('should return 4 for array [5]', function() {
 		expect(electrons.calculate([5])).toEqual(4);
 	});
+
+	it('should return 0 for array [1, 2]', function() {
+		expect(electrons.calculate([1, 2])).toEqual(0);
+	});
 });

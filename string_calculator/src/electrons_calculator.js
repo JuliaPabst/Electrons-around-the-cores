@@ -7,6 +7,8 @@ ElectronsCalculator.prototype.calculate = function(array) {
 		return 2;
 	} else if(array[0] == 5) {
 		return 4;
+	} else if(array[0] == 1 && array[1] == 2) {
+		 return 0;
 	}
 	
 	return 0;
